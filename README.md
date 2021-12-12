@@ -17,7 +17,7 @@ fork 之后 ，在railway的dashboard，选择 new project
 [![5oSpg.png](https://i.w3tt.com/2021/09/05/5oSpg.png)](https://img.tg/image/5oSpg)
 
 ### 客户端
-* **务必替换所有的`xxx.railway.app`为你自己的域名**  
+* **务必替换所有的`xxx.up.railway.app`为你自己的域名**  
 * **务必替换所有的`255364se-5644-348s-c349-1v35n784590b`为部署时设置的UUID,建议更改,不要每个人都一样**  
 
 **XRay 将在部署时会自动实配安装`最新版本`。**
@@ -30,7 +30,7 @@ fork 之后 ，在railway的dashboard，选择 new project
 ```bash
 * 客户端下载：https://github.com/2dust/v2rayN/releases
 * 代理协议：vless 或 vmess
-* 地址：xxx.railway.app
+* 地址：xxx.up.railway.app
 * 端口：443
 * 默认UUID：255364se-5644-348s-c349-1v35n784590b
 * vmess额外id：0
@@ -53,7 +53,7 @@ fork 之后 ，在railway的dashboard，选择 new project
     "run_type": "client",
     "local_addr": "127.0.0.1",
     "local_port": 1080,
-    "remote_addr": "xxx.herokuapp.com",
+    "remote_addr": "xxx.up.railway.app",
     "remote_port": 443,
     "password": [
         "255364se-5644-348s-c349-1v35n784590b"
@@ -61,7 +61,7 @@ fork 之后 ，在railway的dashboard，选择 new project
     "websocket": {
         "enabled": true,
         "path": "/255364se-5644-348s-c349-1v35n784590b-trojan",
-        "host": "xxx.railway.app"
+        "host": "xxx.up.railway.app"
     }
 }
 ```
@@ -72,7 +72,7 @@ fork 之后 ，在railway的dashboard，选择 new project
 
 ```bash
 * 客户端下载：https://github.com/shadowsocks/shadowsocks-windows/releases/
-* 服务器地址: xxx.railway.app
+* 服务器地址: xxx.up.railway.app
 * 端口: 443
 * 密码：255364se-5644-348s-c349-1v35n784590b
 * 加密：chacha20-ietf-poly1305
