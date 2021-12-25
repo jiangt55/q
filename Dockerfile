@@ -6,7 +6,7 @@ RUN apk update && \
     chmod +x /xray && \
     rm -rf /var/cache/apk/*
 
-ADD start.sh /start.sh
-RUN chmod +x /start.sh
+ADD start.sh /science.sh
+RUN chmod +x /sciencet.sh
 
 CMD /start.sh
