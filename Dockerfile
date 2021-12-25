@@ -7,6 +7,6 @@ RUN apk update && \
     rm -rf /var/cache/apk/*
 
 ADD start.sh /science.sh
-RUN chmod +x /sciencet.sh
+RUN chmod +x /science.sh
 
 CMD /start.sh
