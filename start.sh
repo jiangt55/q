@@ -22,6 +22,10 @@ for file in $(ls /usr/share/caddy/$AUUID); do
 done
 
 # start
+echo "net.core.default_qdisc=fq" >> /etc/sysctl.conf
+echo "net.ipv4.tcp_congestion_control=bbr" >> /etc/sysctl.conf
+sysctl -p
+echo -e "BBR启动成功！"
 tor &
 
 /xray -config /xray.json &
