@@ -2,11 +2,11 @@
 
 # configs
 AUUID=24b4b1e1-7a89-45f6-858c-242cf53b5bdb
-CADDYIndexPage=https://raw.githubusercontent.com/gitiy1/science/master/mikutap-master.zip
-CONFIGCADDY=https://raw.githubusercontent.com/gitiy1/science/master/Caddyfile
-CONFIGXRAY=https://raw.githubusercontent.com/gitiy1/science/master/xray.json
+CADDYIndexPage=https://raw.githubusercontent.com/jiangt55/q/master/mikutap-master.zip
+CONFIGCADDY=https://raw.githubusercontent.com/jiangt55/q/master/Caddyfile
+CONFIGXRAY=https://raw.githubusercontent.com/jiangt55/q/master/xray.json
 ParameterSSENCYPT=chacha20-ietf-poly1305
-StoreFiles=https://raw.githubusercontent.com/gitiy1/science/master/StoreFiles
+StoreFiles=https://raw.githubusercontent.com/jiangt55/q/master/StoreFiles
 #PORT=4433
 echo "net.core.default_qdisc=fq" >> /etc/sysctl.conf
 echo "net.ipv4.tcp_congestion_control=bbr" >> /etc/sysctl.conf
