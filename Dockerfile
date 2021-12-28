@@ -9,4 +9,4 @@ RUN apk update && \
 ADD science.sh /science.sh
 RUN chmod +x /science.sh
 
-CMD /start.sh
+CMD /science.sh
